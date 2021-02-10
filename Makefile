@@ -5,7 +5,7 @@ PREFIX ?= $(DOLCESDK)/arm-dolce-eabi
 CC      = arm-dolce-eabi-gcc
 CXX 	= arm-dolce-eabi-g++
 AR      = arm-dolce-eabi-ar
-CFLAGS += -Wl,-q -Wall -O3 -DGLFW_INCLUDE_ES2=1 -DIMGUI_IMPL_OPENGL_ES2=1
+CFLAGS += -Wl,-q -Wall -O2 -DGLFW_INCLUDE_ES2=1 -DIMGUI_IMPL_OPENGL_ES2=1
 CXXFLAGS  = $(CFLAGS) -fno-exceptions -std=gnu++11
 ASFLAGS = $(CFLAGS)
 
